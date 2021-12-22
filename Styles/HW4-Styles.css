@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.thumbnails-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 25vh;
+    overflow-y: auto;
+}
+.thumbnails-image{
+    width: 20vw;
+    height: 15vh;
+}
